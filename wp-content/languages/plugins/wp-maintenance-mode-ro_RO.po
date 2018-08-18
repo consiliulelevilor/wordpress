@@ -1,0 +1,413 @@
+# Translation of Stable (latest release) in Romanian
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-06-09 09:52:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#. #-#-#-#-#  tmp-wp-maintenance-mode.pot (WP Maintenance Mode 2.0.3) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/classes/wp-maintenance-mode-admin.php:154
+msgid "WP Maintenance Mode"
+msgstr "WP Maintenance Mode"
+
+#: includes/classes/wp-maintenance-mode-admin.php:367
+msgid "Settings"
+msgstr "Setări"
+
+#: includes/classes/wp-maintenance-mode-admin.php:386
+msgid "The Maintenance Mode is <strong>active</strong>. Please don't forget to <a href=\"%s\">deactivate</a> as soon as you are done."
+msgstr "Modul de mentenanta este <strong>activ</strong>. Nu uita sa-l <a href=\"%s\">dezactivezi</a> imediat dupa ce termini."
+
+#: includes/classes/wp-maintenance-mode.php:102
+#: includes/classes/wp-maintenance-mode.php:103
+msgid "Maintenance mode"
+msgstr "Mentenanta"
+
+#: includes/classes/wp-maintenance-mode.php:105
+msgid "<p>Sorry for the inconvenience.<br />Our website is currently undergoing scheduled maintenance.<br />Thank you for your understanding.</p>"
+msgstr "<p>Ne cerem scuze pentru inconvenienta.<br />Site-ul nostru se afla in mentenanta.<br />Multumim pentru intelegere.</p>"
+
+#: includes/classes/wp-maintenance-mode.php:123
+msgid "Notify me when it's ready"
+msgstr "Notifica-ma atunci cand procesul de mentenanta este gata"
+
+#: includes/classes/wp-maintenance-mode.php:258
+msgid "WP Maintenance Mode plugin was relaunched and you MUST revise <a href=\"%s\">settings</a>."
+msgstr "Plugin-ul WP Maintenance Mode a fost relansat si TREBUIE sa revedeti <a href=\"%s\">setarile</a> acestuia."
+
+#: includes/classes/wp-maintenance-mode.php:444
+#: includes/classes/wp-maintenance-mode.php:458
+msgid "Maintenance Mode"
+msgstr "Mentenanta"
+
+#: includes/classes/wp-maintenance-mode.php:655
+#: includes/classes/wp-maintenance-mode.php:685
+msgid "Please enter a valid email address."
+msgstr "Te rog sa completezi o adresa de email valida."
+
+#: includes/classes/wp-maintenance-mode.php:666
+msgid "You successfuly subscribed. Thanks!"
+msgstr "Ai fost abonat cu succes. Multumim!"
+
+#: includes/classes/wp-maintenance-mode.php:681
+msgid "All fields required."
+msgstr "Toate campurile sunt obligatorii."
+
+#: includes/classes/wp-maintenance-mode.php:702
+msgid "Message via contact"
+msgstr "Mesaj trimis prin formularul de contact"
+
+#: includes/classes/wp-maintenance-mode.php:706
+msgid "Your email was sent to the website administrator. Thanks!"
+msgstr "Emailul tau a fost trimis catre administratorul site-ului. Multumim!"
+
+#: views/loginform.php:8
+msgid "Login"
+msgstr "Autentificare"
+
+#: views/maintenance.php:41
+msgid "your e-mail..."
+msgstr "emailul tau..."
+
+#: views/maintenance.php:42 views/settings.php:260
+msgid "Subscribe"
+msgstr "Abonare"
+
+#: views/maintenance.php:83 views/sidebar.php:7
+msgid "Name"
+msgstr "Nume"
+
+#: views/maintenance.php:84
+msgid "E-mail"
+msgstr "Email"
+
+#: views/maintenance.php:86
+msgid "Your message"
+msgstr "Mesajul tau"
+
+#: views/maintenance.php:87
+msgid "Send"
+msgstr "Trimite"
+
+#: views/maintenance.php:92
+msgid "Contact us"
+msgstr "Contacteaza-ne"
+
+#: views/maintenance.php:97
+msgid "Dashboard"
+msgstr "Panou control"
+
+#: views/settings.php:6
+msgid "Settings saved."
+msgstr "Setări salvate."
+
+#: views/settings.php:13
+msgid "General"
+msgstr "General"
+
+#: views/settings.php:14
+msgid "Design"
+msgstr "Design"
+
+#: views/settings.php:15
+msgid "Modules"
+msgstr "Extensii"
+
+#: views/settings.php:24
+msgid "Status"
+msgstr "Stare"
+
+#: views/settings.php:26
+msgid "Activated"
+msgstr "Activat"
+
+#: views/settings.php:27
+msgid "Deactivated"
+msgstr "Dezactivat"
+
+#: views/settings.php:31
+msgid "Bypass for Search Bots"
+msgstr "Nu afisa pagina de mentenanta robotilor motoarelor de cautare"
+
+#: views/settings.php:34 views/settings.php:94 views/settings.php:104
+#: views/settings.php:232 views/settings.php:268 views/settings.php:305
+#: views/settings.php:373 views/settings.php:405
+msgid "Yes"
+msgstr "Da"
+
+#: views/settings.php:35 views/settings.php:95 views/settings.php:105
+#: views/settings.php:233 views/settings.php:269 views/settings.php:306
+#: views/settings.php:374 views/settings.php:406
+msgid "No"
+msgstr "Nu"
+
+#: views/settings.php:37
+msgid "Allow Search Bots to bypass maintenance mode?"
+msgstr "Dai voie robotilor motoarelor de cautare sa acceseze site-ul, fara a vedea pagina de mentenanta?"
+
+#: views/settings.php:41
+msgid "Backend Role"
+msgstr "Rol interfata administrare"
+
+#: views/settings.php:48
+msgid "Which user role is allowed to access the backend of this blog?"
+msgstr "Ce rol trebuie sa aiba utilizatorul pentru a putea accesa interfata de administrare acestui blog?"
+
+#: views/settings.php:52
+msgid "Frontend Role"
+msgstr "Rol interfata publica"
+
+#: views/settings.php:59
+msgid "Which user role is allowed to access the frontend of this blog?"
+msgstr "Ce rol trebuie sa aiba utilizatorul pentru a putea accesa interfata publica acestui blog?"
+
+#: views/settings.php:63
+msgid "Robots Meta Tag"
+msgstr "Meta Tag-ul \"robots\""
+
+#: views/settings.php:69
+msgid "The robots meta tag lets you use a granular, page-specific approach to control how an individual page should be indexed and served to users in search results."
+msgstr "Meta tag-ul \"robots\" permite controlul asupra felului in care motoarele de cautare indexeaza si servesc rezultatele pentru o anumita pagina."
+
+#: views/settings.php:73
+msgid "Redirection"
+msgstr "Redirectionare"
+
+#: views/settings.php:76
+msgid "If you want to redirect a user to a URL (which is not the WordPress dashboard) after login, then define a URL (incl. http://)"
+msgstr "Daca doresti sa redirectionezi un utilizator catre un URL (diferit de WordPress dashboard) dupa ce acesta s-a autentificat, atunci defineste un URL (include http://). "
+
+#: views/settings.php:80
+msgid "Exclude"
+msgstr "Exclude"
+
+#: views/settings.php:87
+msgid "Exclude feed, pages, archives or IPs from maintenance mode. Add one slug / IP per line!"
+msgstr "Exclude rss feed, pagini, arhive ori IP-uri din modul de mentenanta. Adauga cate slug/IP pe linie."
+
+#: views/settings.php:91
+msgid "Notice"
+msgstr "Observație"
+
+#: views/settings.php:97
+msgid "Do you want to see notices when maintenance mode is activated?"
+msgstr "Doresti sa vezi atentionarea atunci cand modul de mentenanta este activat?"
+
+#: views/settings.php:101
+msgid "Dashboard link"
+msgstr "Link catre admin"
+
+#: views/settings.php:107
+msgid "Do you want to add a link to the dashboard on your maintenance mode page?"
+msgstr "Doresti sa adaugi un link catre admin pe pagina de mentenanta?"
+
+#: views/settings.php:115 views/settings.php:218 views/settings.php:421
+msgid "Save settings"
+msgstr "Salvează setările"
+
+#: views/settings.php:116 views/settings.php:219 views/settings.php:422
+msgid "Reset settings"
+msgstr "Resetează setările"
+
+#: views/settings.php:121
+msgid "Content"
+msgstr "Conținut"
+
+#: views/settings.php:126
+msgid "Title (HTML tag)"
+msgstr "Titlu (tag HTML)"
+
+#: views/settings.php:132
+msgid "Heading"
+msgstr "Subtitlu"
+
+#: views/settings.php:139 views/settings.php:274
+msgid "Text"
+msgstr "Text"
+
+#: views/settings.php:159
+msgid "Background"
+msgstr "Fundal"
+
+#: views/settings.php:164
+msgid "Choose type"
+msgstr "Alege tip"
+
+#: views/settings.php:167
+msgid "Custom color"
+msgstr "Culoare"
+
+#: views/settings.php:168
+msgid "Uploaded background"
+msgstr "Imagine de fundal urcata de utilizator"
+
+#: views/settings.php:169
+msgid "Predefined background"
+msgstr "Imagine de fundal predefinita"
+
+#: views/settings.php:174
+msgid "Choose color"
+msgstr "Alege culoare"
+
+#: views/settings.php:180
+msgid "Upload background"
+msgstr "Incarca imagine"
+
+#: views/settings.php:184
+msgid "Backgrounds should have 1920x1280 px size."
+msgstr "Imaginea ar trebui sa fie 1920x1280 px"
+
+#: views/settings.php:189
+msgid "Choose background"
+msgstr "Alege imagine"
+
+#: views/settings.php:191
+msgid "source <a href=\"%\" target=\"_blank\">Free Photos</a>"
+msgstr "sursa <a href=\"%\" target=\"_blank\">Free Photos</a>"
+
+#: views/settings.php:224
+msgid "Countdown"
+msgstr "Numărătoare inversă"
+
+#: views/settings.php:229
+msgid "Show countdown?"
+msgstr "Afiseaza countdown?"
+
+#: views/settings.php:238
+msgid "Start date"
+msgstr "Dată de început"
+
+#: views/settings.php:244
+msgid "Countdown (remaining time)"
+msgstr "Countdown (timpul ramas)"
+
+#: views/settings.php:246
+msgid "Days"
+msgstr "Zile"
+
+#: views/settings.php:247
+msgid "Hours"
+msgstr "Ore"
+
+#: views/settings.php:248
+msgid "Minutes"
+msgstr "Minute"
+
+#: views/settings.php:252
+msgid "Color"
+msgstr "Culoare"
+
+#: views/settings.php:265
+msgid "Show subscribe?"
+msgstr "Afiseaza formular abonare?"
+
+#: views/settings.php:281
+msgid "Stats"
+msgstr "Statistici"
+
+#: views/settings.php:285
+msgid "You have %d subscriber(s)"
+msgstr "Lista contine %d abonati"
+
+#: views/settings.php:290
+msgid "Export as CSV"
+msgstr "Exporta lista in format CSV"
+
+#: views/settings.php:297
+msgid "Social Networks"
+msgstr "Rețele sociale"
+
+#: views/settings.php:302
+msgid "Show social networks?"
+msgstr "Afiseaza butoane retele sociale?"
+
+#: views/settings.php:311
+msgid "Links target?"
+msgstr "Target-ul link-urilor"
+
+#: views/settings.php:314
+msgid "New page"
+msgstr "Pagina noua"
+
+#: views/settings.php:315
+msgid "Same page"
+msgstr "Aceeași pagină"
+
+#: views/settings.php:317
+msgid "Choose how the links will open."
+msgstr "Alege felul in care link-urile se vor deschide."
+
+#: views/settings.php:365
+msgid "Contact"
+msgstr "Contact"
+
+#: views/settings.php:370
+msgid "Show contact?"
+msgstr "Afiseaza contact ?"
+
+#: views/settings.php:379
+msgid "Email address"
+msgstr "Adresă email"
+
+#: views/settings.php:385
+msgid "Effects"
+msgstr "Efecte"
+
+#: views/settings.php:388
+msgid "Move top - Move bottom"
+msgstr "Move top - Move bottom"
+
+#: views/settings.php:389
+msgid "Zoom - Zoomed"
+msgstr "Zoom - Zoomed"
+
+#: views/settings.php:390
+msgid "Fold - Unfold"
+msgstr "Fold - Unfold"
+
+#: views/settings.php:397
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: views/settings.php:402
+msgid "Use Google Analytics?"
+msgstr "Folosesti Google Analytics?"
+
+#: views/settings.php:411
+msgid "Tracking code"
+msgstr "Cod de monitorizare"
+
+#: views/sidebar.php:3
+msgid "Plugin Info"
+msgstr "Informatii plugin"
+
+#: views/sidebar.php:13
+msgid "Author"
+msgstr "Autor"
+
+#: views/sidebar.php:14
+msgid "Website"
+msgstr "Sit web"
+
+#: views/sidebar.php:15
+msgid "Twitter"
+msgstr "Twitter"
+
+#: views/sidebar.php:16
+msgid "GitHub"
+msgstr "GitHub"
+
+#: views/sidebar.php:22
+msgid "WordPress Themes"
+msgstr "Teme WordPress"
+
+#: views/sidebar.php:31
+msgid "Resources"
+msgstr "Resurse"

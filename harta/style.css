@@ -1,0 +1,61 @@
+
+
+html,body {min-height: 100%;-webkit-text-size-adjust:100%}
+
+html,body,h1,h2,h3,h4,h5,h6,div,span,blockquote,p,address,form,fieldset,img,ul,ol,dl,dt,dd,li,hr,table,td,th,stong,em,sup,sub,dfn,ins,del,q,cite,var,samp,code,kbd,tt {
+	margin: 0;
+	padding: 0;
+	border: 0
+ }
+
+img,fieldset {border: 0}
+body {
+	text-align: center;
+	font-size: 100%;
+	line-height: 18px
+ }
+
+.fleft {float: left}
+.rel {position: relative}
+.abs {position: absolute}
+.normal {font-size: 12px;line-height:16px}
+.marker {
+	background: #fffabe;
+	color: #111;
+	padding: 4px 6px
+ }
+body,input,textarea,select,option,optgroup,button {font-family: "Verdana",Arial,Helvetica,sans-serif}
+
+.mapup {z-index: 5}
+
+	.mapup .point {
+		left: 0;
+		top: 0;
+		color: #fff;
+		cursor: pointer;
+		line-height: 14px;
+		text-shadow: 1px 1px 2px #000
+	 }
+
+		.mapup .point strong {text-indent: -1000em}
+
+		.mapup .point span {
+			text-indent: -1000em;
+			background: #FFFFFF;
+			border: 1px solid #fff;
+			width: 14px;
+			height: 14px;
+			margin-right: 4px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			-webkit-border-radius: 8px;
+			-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+			-moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+			box-shadow: 1px 1px 1px rgba(0,0,0,0.5)
+		 }
+
+		.mapup .point:hover strong,.mapup .active strong {text-indent: 0}
+
+	.mapup #town44 {left: 345px;top:315px}
+
+
