@@ -12,6 +12,8 @@ wp-content/wp-cache-config.php
 wp-content/plugins/*
 wp-content/themes/*
 
+!.gitkeep
+
 /sitemap.xml
 /sitemap.xml.gz
 
